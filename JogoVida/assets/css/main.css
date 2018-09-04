@@ -60,15 +60,18 @@ body{
 	margin-left: 30px;
 }
 
-#cad-form{
-	margin-left: 40%;
+.cad-form{
+	margin-left: 35%;
 	margin-top: 60px;
 }
 
-#limp-form{
+.limp-form{
 	margin-left: 70px;
 }
 
+.volt-form{
+	margin-left: 70px;
+}
 
 .tarefa{
 	float: center;
