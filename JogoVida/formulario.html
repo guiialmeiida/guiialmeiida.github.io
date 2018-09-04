@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Jogo da Vida</title>
+
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css">
+
+ </head>
+ <body class="calendario">
+ 	<h1 class="cadastro-tarefas">Cadastro de tarefas</h1>
+ 	<form action="armazenar-form" method="post">
+
+	<fieldset>
+		<table cellspacing="10" class="input-form">
+			<tr>
+				<td>
+					<label for="tarefa" class="font-label">Tarefa: </label>
+					<input type="text" name="tarefa">
+				</td>
+							
+				<td>
+					<label for="descricao" class="input-form1 font-label">Descrição: </label>
+					<input type="text" name="descricao" align="left">
+				</td>
+				
+	
+			</tr>
+				
+			<tr>
+				<td>
+					<label class="font-label">Data: </label>
+					<input type="date" name="data" class="input-data">
+				</td>
+				
+				<td>
+					<label for="periodo" class="input-form1 font-label">Periodo: </label>
+					<input type="text" name="periodo" align="left" class="input-periodo">
+				</td>
+  
+			</tr>
+			
+			<tr>
+				<td>
+					<label class="font-label">Valor: </label>
+					<input type="number" name="valor" class="input-valor">
+				</td>
+				
+				<td>
+					<label for="tipo" class="input-form1 font-label">Tipo: </label>
+					<select align="left" class="select-tipo"> 
+					<option value="entrada">Entrada</option>
+					<option value="saida">Saida</option>
+					</select>
+				</td>
+  
+			</tr>
+ 
+	</table>
+	</fieldset>
+
+	</form>
+
+		
+		<button id="cad-form">Cadastrar</button>
+		<button id="limp-form" type="reset">Limpar</button>
+	
+ 
+ </body>
+ </html>
